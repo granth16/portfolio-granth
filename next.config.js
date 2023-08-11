@@ -36,4 +36,8 @@ module.exports = {
 
     return config;
   },
+  env: {
+    PUPPETEER_EXECUTABLE_PATH: '/usr/bin/google-chrome', // This might vary based on your environment
+    PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 'true',
+  },
 };
